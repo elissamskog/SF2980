@@ -1,0 +1,20 @@
+============================
+AI USAGE LOG – Project 1
+Student: Elis Samskog
+============================
+
+[Date / Time] 2025-11-10 / 22:43
+Model: GPT-5 (ChatGPT, OpenAI)
+Section: A.1(a)
+Purpose: Improve search logic for quantiles.
+Prompt:
+Is there a faster search here for upper bound, if we've already found the lower bound,
+can we use this to constrain upper bound search?
+Verification: Compared output to output before change.
+
+[Date / Time] 2025-11-11 / 10:35
+Model: GPT-5 (ChatGPT, OpenAI)
+Section: A.1(b)
+Purpose: Debugging an index error in exact_quantile_rank_bounds() call.
+Prompt summary: "Why am i getting an index error upon changing the parameters?"
+Verification: Trivial, simply call the function again with the new parameter names.
